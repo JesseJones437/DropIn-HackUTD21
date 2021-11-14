@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<title>Spring 21 Office Hours</title>
+<body style="background-color:#c75b12;">
+
+<font size=+2>
+<a href="./office_hours_main.html">home</a> 
+</font> 
+
+<h1 style="color:#FFFFFF;">Select your professor</h1>
+
+<p style="color:#FFFFFF;">Use Ctrl+F to search for professors lastnames</p> <br>
+
+<button onclick="getDollinger()">Dollinger</button>
+    <p id="dollinger"></p>
+    <script>
+      function getDollinger() {
+        document.getElementById("dollinger").innerHTML = "<span style='color: #FFFFFF;'>Time: 1:00 PM- 2:00 PM <br> Day: Monday & Wednesday <br><br> Location: Online</span>";
+      }
+    </script>
+
+<br>
+
+<button onclick="getRosemary()">Rosemary</button>
+    <p id="rosemary"></p>
+    <script>
+      function getRosemary() {
+        document.getElementById("rosemary").innerHTML = "<span style='color: #FFFFFF;'>Time: 11:30 AM- 12:30 AM <br> Day: Tuesday & Thursday <br><br> Location: Online</span>";
+      }
+    </script>
+
+<br>
+
+<button onclick="getZydorek()">Zydorek</button>
+    <p id="zydorek"></p>
+    <script>
+      function getZydorek() {
+        document.getElementById("zydorek").innerHTML = "<span style='color: #FFFFFF;'>Time: 10:00 AM- 11:00 AM <br> Day: Tuesday & Thursday <br><br> Location: Online</span>";
+      }
+    </script>
+</body>
+</html>
+
